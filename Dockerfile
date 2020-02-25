@@ -1,4 +1,12 @@
 FROM base/archlinux:latest
 
 RUN pacman -Sy
-RUN pacman -S --noconfirm nmap gnu-netcat tcpdump traceroute iproute2 bind-tools vim net-tools
+RUN pacman -S --noconfirm \
+        bind-tools \
+        gnu-netcat \
+        iproute2 \
+        net-tools \
+        nmap \
+        tcpdump \
+        traceroute \
+        vim
