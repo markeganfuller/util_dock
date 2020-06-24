@@ -3,10 +3,12 @@ FROM archlinux/base
 RUN pacman -Sy
 RUN pacman -S --noconfirm \
         bind-tools \
-        gnu-netcat \
+        openbsd-netcat \
         iproute2 \
+        man \
         net-tools \
         nmap \
         tcpdump \
+        telnet \
         traceroute \
         vim
