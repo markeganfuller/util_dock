@@ -9,6 +9,6 @@ RUN pacman -S --noconfirm \
         net-tools \
         nmap \
         tcpdump \
-        telnet \
+        inetutils \
         traceroute \
         vim
