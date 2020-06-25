@@ -1,13 +1,14 @@
 FROM archlinux/base
 
-RUN pacman -Sy
-RUN pacman -S --noconfirm \
+RUN pacman -Sy --noconfirm \
+        bash-completion \
         bind-tools \
         openbsd-netcat \
         iproute2 \
         man \
         net-tools \
         nmap \
+        perl \
         tcpdump \
         inetutils \
         traceroute \
