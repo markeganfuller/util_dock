@@ -5,6 +5,7 @@ RUN pacman -Sy --noconfirm \
         bind-tools \
         inetutils \
         iproute2 \
+        iputils \
         man \
         mtr \
         net-tools \
