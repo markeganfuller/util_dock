@@ -3,13 +3,14 @@ FROM archlinux/base
 RUN pacman -Sy --noconfirm \
         bash-completion \
         bind-tools \
-        openbsd-netcat \
+        inetutils \
         iproute2 \
         man \
+        mtr \
         net-tools \
         nmap \
+        openbsd-netcat \
         perl \
         tcpdump \
-        inetutils \
         traceroute \
         vim
